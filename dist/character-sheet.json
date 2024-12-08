@@ -1,4 +1,5 @@
-[
+{
+  "characterSheets": [
     {
       "name": "Arden the Brave",
       "stats": { "STR": 15, "DEX": 12, "HP": 45 },
@@ -10,4 +11,4 @@
       "notes": "Seeker of forbidden knowledge."
     }
   ]
-  
+}
