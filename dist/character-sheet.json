@@ -1,7 +1,30 @@
 {
-  "name": "Character Sheets Collection",
-  "version": "1.0", 
   "manifest_version": 2,
+  "name": "Character Sheets Collection",
+  "version": "1.0",
+  "description": "A collection of character sheets for use in Owlbear Rodeo.",
+  "author": "Your Name",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://owlbear.rodeo/*"],
+      "js": ["dist/character-sheet.js"]
+    }
+  ],
   "characterSheets": [
     {
       "name": "Arden the Brave",
