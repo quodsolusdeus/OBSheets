@@ -1,6 +1,7 @@
 {
   "name": "Character Sheets Collection",
   "version": "1.0", 
+  "manifest_version": 2,
   "characterSheets": [
     {
       "name": "Arden the Brave",
