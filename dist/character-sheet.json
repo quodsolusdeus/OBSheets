@@ -6,17 +6,8 @@
   "author": "Your Name",
   "action": {
     "default_popup": "index.html",
-    "default_icon": {
-      "16": "images/icon16.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
-    },
-    "title": "Character Sheets Extension",
-    "icon": {
-      "16": "images/icon16.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
-    }
+    "default_icon": "images/icon16.png",
+    "title": "Character Sheets Extension"
   },
   "background": {
     "scripts": ["background.js"],
