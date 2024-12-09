@@ -1,16 +1,16 @@
 {
-  "manifest_version": 2,
-  "name": "Character Sheets Collection",
-  "version": "1.0",
-  "description": "A collection of character sheets for use in Owlbear Rodeo.",
-  "author": "Your Name",
+  "name": "OBSheets",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "author": "Charlie Rossington-Smith",
+  "homepage_url": "",
+  "icon": "/logo.png",
+  "description": "A basic Character Sheets Extension",
   "action": {
-    "default_popup": "index.html",
-    "default_icon": {
-      "16": "images/icon16.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
-    },
+    "icon": "/icon.svg",
+    "popover": "/",
+    "height": 129,
+    "width": 250,
     "title": "Character Sheets Extension"
   },
   "background": {
