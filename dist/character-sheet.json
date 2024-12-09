@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "manifest_version": 1,
   "author": "Charlie Rossington-Smith",
-  "homepage_url": "",
+  "homepage_url": "https://quodsolusdeus.github.io/OBSheets/",
   "icon": "/logo.png",
   "description": "A basic Character Sheets Extension",
   "action": {
